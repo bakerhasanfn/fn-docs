@@ -1,0 +1,87 @@
+/* NestJS-style color scheme for MkDocs Material */
+
+/* Light mode - NestJS theme */
+[data-md-color-scheme="nestjs-light"] {
+  /* Primary colors */
+  --md-primary-fg-color: #ea2845;
+  --md-primary-fg-color--light: #ea2845;
+  --md-primary-fg-color--dark: #bb0a26;
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: #ffffffb3;
+  
+  /* Accent colors */
+  --md-accent-fg-color: #ea2845;
+  --md-accent-fg-color--transparent: rgba(234, 40, 69, 0.1);
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #ffffffb3;
+  
+  /* Links */
+  --md-typeset-a-color: #ea2845;
+
+  /* Code block colors */
+  --md-code-bg-color: #f8f8f8;
+  --md-code-fg-color: #333333;
+}
+
+/* Dark mode - NestJS theme */
+[data-md-color-scheme="nestjs-dark"] {
+  /* Primary colors */
+  --md-primary-fg-color: #ea2845;
+  --md-primary-fg-color--light: #ea2845;
+  --md-primary-fg-color--dark: #bb0a26;
+  --md-primary-bg-color: #fff; /* Keep white text in header */
+  --md-primary-bg-color--light: #ffffffb3;
+  
+  /* Accent colors */
+  --md-accent-fg-color: #ff5370;
+  --md-accent-fg-color--transparent: rgba(255, 83, 112, 0.1);
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #ffffffb3;
+  
+  /* Default color scheme - improved contrast */
+  --md-default-fg-color: #eee;
+  --md-default-fg-color--light: #ddd;
+  --md-default-fg-color--lighter: #ccc;
+  --md-default-fg-color--lightest: #bbb;
+  --md-default-bg-color: #0d1117;
+  --md-default-bg-color--light: #161b22;
+  --md-default-bg-color--lighter: #21262d;
+  --md-default-bg-color--lightest: #30363d;
+  
+  /* Links */
+  --md-typeset-a-color: #ff5370;
+
+  /* Code block colors - improved contrast */
+  --md-code-bg-color: #161b22;
+  --md-code-fg-color: #eee;
+
+  /* Typography */
+  --md-typeset-color: #eee;
+  --md-typeset-a-color: #ff5370;
+  
+  --md-code-hl-function-color: #d2a8ff;
+  --md-code-hl-constant-color: #79c0ff;
+  --md-code-hl-keyword-color: #ff7b72;
+  --md-code-hl-string-color: #a5d6ff;
+  --md-code-hl-name-color: #ea2845;
+  --md-code-hl-operator-color: #ff7b72;
+  --md-code-hl-punctuation-color: #c9d1d9;
+  --md-code-hl-comment-color: #8b949e;
+  --md-code-hl-generic-color: #c9d1d9;
+  --md-code-hl-variable-color: #ffa657;
+}
+
+/* NestJS code syntax highlighting for light theme - similar to their docs */
+[data-md-color-scheme="nestjs-light"] .highlight .k,
+[data-md-color-scheme="nestjs-light"] .highlight .kd { color: #d73a49; } /* Keyword */
+[data-md-color-scheme="nestjs-light"] .highlight .kn { color: #ea2845; } /* Keyword.Namespace */
+[data-md-color-scheme="nestjs-light"] .highlight .kt { color: #d73a49; } /* Keyword.Type */
+[data-md-color-scheme="nestjs-light"] .highlight .s,
+[data-md-color-scheme="nestjs-light"] .highlight .s2 { color: #032f62; } /* String */
+[data-md-color-scheme="nestjs-light"] .highlight .na { color: #6f42c1; } /* Name.Attribute */
+[data-md-color-scheme="nestjs-light"] .highlight .nb { color: #005cc5; } /* Name.Builtin */
+[data-md-color-scheme="nestjs-light"] .highlight .nc { color: #ea2845; } /* Name.Class */
+[data-md-color-scheme="nestjs-light"] .highlight .nx { color: #ea2845; } /* Name.Other */
+[data-md-color-scheme="nestjs-light"] .highlight .nf { color: #6f42c1; } /* Name.Function */
+[data-md-color-scheme="nestjs-light"] .highlight .o { color: #005cc5; } /* Operator */
+[data-md-color-scheme="nestjs-light"] .highlight .c1 { color: #6a737d; } /* Comment */

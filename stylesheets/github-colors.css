@@ -1,0 +1,173 @@
+/* GitHub-style color scheme for MkDocs Material */
+
+/* Light mode - GitHub theme */
+[data-md-color-scheme="github-light"] {
+  /* Primary colors */
+  --md-primary-fg-color: #24292e;
+  --md-primary-fg-color--light: #959da5;
+  --md-primary-fg-color--dark: #1b1f23;
+  --md-primary-bg-color: #fff;
+  --md-primary-bg-color--light: #ffffffb3;
+  
+  /* Accent colors */
+  --md-accent-fg-color: #0366d6;
+  --md-accent-fg-color--transparent: rgba(3, 102, 214, 0.1);
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: #ffffffb3;
+  
+  /* Typography */
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --md-code-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  
+  /* Text colors */
+  --md-typeset-color: #24292e;
+  --md-typeset-a-color: #0366d6;
+  
+  /* Code block colors */
+  --md-code-bg-color: #f6f8fa;
+  --md-code-fg-color: #24292e;
+
+  /* Navigation */
+  --md-footer-bg-color: #f6f8fa;
+  --md-footer-bg-color--dark: #e1e4e8;
+  --md-footer-fg-color: #24292e;
+  --md-footer-fg-color--light: #6a737d;
+  --md-footer-fg-color--lighter: #959da5;
+}
+
+/* Dark mode - GitHub theme */
+[data-md-color-scheme="github-dark"] {
+  /* Primary colors */
+  --md-primary-fg-color: #0d1117;
+  --md-primary-fg-color--light: #8b949e;
+  --md-primary-fg-color--dark: #0d1117;
+  --md-primary-bg-color: #c9d1d9;
+  --md-primary-bg-color--light: #c9d1d9b3;
+  
+  /* Accent colors */
+  --md-accent-fg-color: #58a6ff;
+  --md-accent-fg-color--transparent: rgba(88, 166, 255, 0.1);
+  --md-accent-bg-color: #c9d1d9;
+  --md-accent-bg-color--light: #c9d1d9b3;
+  
+  /* Typography */
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --md-code-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  
+  /* Default color scheme */
+  --md-default-fg-color: #c9d1d9;
+  --md-default-fg-color--light: #8b949e;
+  --md-default-fg-color--lighter: #6e7681;
+  --md-default-fg-color--lightest: #484f58;
+  --md-default-bg-color: #0d1117;
+  --md-default-bg-color--light: #161b22;
+  --md-default-bg-color--lighter: #21262d;
+  --md-default-bg-color--lightest: #30363d;
+  
+  /* Text colors */
+  --md-typeset-color: #c9d1d9;
+  --md-typeset-a-color: #58a6ff;
+
+  /* Code block colors */
+  --md-code-bg-color: #161b22;
+  --md-code-fg-color: #c9d1d9;
+
+  /* Code syntax highlighting - GitHub style */
+  --md-code-hl-color: rgba(88, 166, 255, 0.15);
+  --md-code-hl-number-color: #f78166;
+  --md-code-hl-special-color: #ff7b72;
+  --md-code-hl-function-color: #d2a8ff;
+  --md-code-hl-constant-color: #79c0ff;
+  --md-code-hl-keyword-color: #ff7b72;
+  --md-code-hl-string-color: #a5d6ff;
+  --md-code-hl-name-color: #c9d1d9;
+  --md-code-hl-operator-color: #79c0ff;
+  --md-code-hl-punctuation-color: #c9d1d9;
+  --md-code-hl-comment-color: #8b949e;
+  --md-code-hl-generic-color: #c9d1d9;
+  --md-code-hl-variable-color: #ffa657;
+
+  /* Navigation */
+  --md-footer-bg-color: #161b22;
+  --md-footer-bg-color--dark: #0d1117;
+  --md-footer-fg-color: #c9d1d9;
+  --md-footer-fg-color--light: #8b949e;
+  --md-footer-fg-color--lighter: #6e7681;
+}
+
+/* GitHub specific code syntax highlighting - Light theme */
+[data-md-color-scheme="github-light"] .highlight .k,
+[data-md-color-scheme="github-light"] .highlight .kd,
+[data-md-color-scheme="github-light"] .highlight .kn,
+[data-md-color-scheme="github-light"] .highlight .kp,
+[data-md-color-scheme="github-light"] .highlight .kr,
+[data-md-color-scheme="github-light"] .highlight .kt { color: #d73a49; } /* Keyword */
+
+[data-md-color-scheme="github-light"] .highlight .s,
+[data-md-color-scheme="github-light"] .highlight .sa,
+[data-md-color-scheme="github-light"] .highlight .sb,
+[data-md-color-scheme="github-light"] .highlight .sc,
+[data-md-color-scheme="github-light"] .highlight .dl,
+[data-md-color-scheme="github-light"] .highlight .sd,
+[data-md-color-scheme="github-light"] .highlight .s2,
+[data-md-color-scheme="github-light"] .highlight .se,
+[data-md-color-scheme="github-light"] .highlight .sh,
+[data-md-color-scheme="github-light"] .highlight .si,
+[data-md-color-scheme="github-light"] .highlight .sx,
+[data-md-color-scheme="github-light"] .highlight .sr,
+[data-md-color-scheme="github-light"] .highlight .s1,
+[data-md-color-scheme="github-light"] .highlight .ss { color: #032f62; } /* String */
+
+[data-md-color-scheme="github-light"] .highlight .na { color: #6f42c1; } /* Name.Attribute */
+[data-md-color-scheme="github-light"] .highlight .nb { color: #005cc5; } /* Name.Builtin */
+[data-md-color-scheme="github-light"] .highlight .nc { color: #6f42c1; } /* Name.Class */
+[data-md-color-scheme="github-light"] .highlight .nx { color: #24292e; } /* Name.Other */
+[data-md-color-scheme="github-light"] .highlight .nf { color: #6f42c1; } /* Name.Function */
+[data-md-color-scheme="github-light"] .highlight .no { color: #005cc5; } /* Name.Constant */
+
+[data-md-color-scheme="github-light"] .highlight .o { color: #24292e; } /* Operator */
+[data-md-color-scheme="github-light"] .highlight .c1 { color: #6a737d; } /* Comment */
+
+/* GitHub specific code syntax highlighting - Dark theme */
+[data-md-color-scheme="github-dark"] .highlight .k,
+[data-md-color-scheme="github-dark"] .highlight .kd,
+[data-md-color-scheme="github-dark"] .highlight .kn,
+[data-md-color-scheme="github-dark"] .highlight .kp,
+[data-md-color-scheme="github-dark"] .highlight .kr,
+[data-md-color-scheme="github-dark"] .highlight .kt { color: #ff7b72; } /* Keyword */
+
+[data-md-color-scheme="github-dark"] .highlight .s,
+[data-md-color-scheme="github-dark"] .highlight .sa,
+[data-md-color-scheme="github-dark"] .highlight .sb,
+[data-md-color-scheme="github-dark"] .highlight .sc,
+[data-md-color-scheme="github-dark"] .highlight .dl,
+[data-md-color-scheme="github-dark"] .highlight .sd,
+[data-md-color-scheme="github-dark"] .highlight .s2,
+[data-md-color-scheme="github-dark"] .highlight .se,
+[data-md-color-scheme="github-dark"] .highlight .sh,
+[data-md-color-scheme="github-dark"] .highlight .si,
+[data-md-color-scheme="github-dark"] .highlight .sx,
+[data-md-color-scheme="github-dark"] .highlight .sr,
+[data-md-color-scheme="github-dark"] .highlight .s1,
+[data-md-color-scheme="github-dark"] .highlight .ss { color: #a5d6ff; } /* String */
+
+[data-md-color-scheme="github-dark"] .highlight .na { color: #d2a8ff; } /* Name.Attribute */
+[data-md-color-scheme="github-dark"] .highlight .nb { color: #79c0ff; } /* Name.Builtin */
+[data-md-color-scheme="github-dark"] .highlight .nc { color: #d2a8ff; } /* Name.Class */
+[data-md-color-scheme="github-dark"] .highlight .nx { color: #c9d1d9; } /* Name.Other */
+[data-md-color-scheme="github-dark"] .highlight .nf { color: #d2a8ff; } /* Name.Function */
+[data-md-color-scheme="github-dark"] .highlight .no { color: #79c0ff; } /* Name.Constant */
+
+[data-md-color-scheme="github-dark"] .highlight .o { color: #ff7b72; } /* Operator */
+[data-md-color-scheme="github-dark"] .highlight .c1 { color: #8b949e; } /* Comment */
+
+/* PHP-specific syntax highlighting */
+[data-md-color-scheme="github-light"] .language-php .highlight .k,
+[data-md-color-scheme="github-light"] .language-php .highlight .kd { color: #d73a49; }
+[data-md-color-scheme="github-light"] .language-php .highlight .nv { color: #e36209; }
+[data-md-color-scheme="github-light"] .language-php .highlight .nx { color: #005cc5; }
+
+[data-md-color-scheme="github-dark"] .language-php .highlight .k,
+[data-md-color-scheme="github-dark"] .language-php .highlight .kd { color: #ff7b72; }
+[data-md-color-scheme="github-dark"] .language-php .highlight .nv { color: #ffa657; }
+[data-md-color-scheme="github-dark"] .language-php .highlight .nx { color: #79c0ff; }
